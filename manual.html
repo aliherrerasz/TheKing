@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The King - Manual de Usuario</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #1e1e1e; color: #e0e0e0; margin: 0; padding: 0; }
+        header, section { padding: 20px; }
+        header { background-color: #292929; }
+        h1, h2, h3 { color: #f9a825; }
+        nav ul { list-style: none; padding: 0; display: flex; gap: 15px; }
+        nav a { color: #e0e0e0; text-decoration: none; }
+        .container { max-width: 800px; margin: auto; }
+        .section-title { border-bottom: 2px solid #f9a825; margin-top: 40px; }
+        ul { margin-left: 20px; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { padding: 10px; border: 1px solid #444; }
+        th { background-color: #333; }
+        button { background-color: #f9a825; color: #1e1e1e; border: none; padding: 10px 15px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>The King &ndash; Manual de Usuario</h1>
+            <p>Guía rápida para familiarizarse.</p>
+        </div>
+    </header>
+    <main class="container">
+        <section>
+            <h2 class="section-title">1. Introducción</h2>
+            <p>Bienvenido a <strong>The King</strong>, un endless runner de acción y saltos en pixel art. Controla a tu héroe mientras recorre un mundo infinito de columnas y obstáculos, buscando superar tu propio récord.</p>
+        </section>
+
+        <section>
+            <h2 class="section-title">2. Objetivo</h2>
+            <ul>
+                <li>Superar tu récord de metros recorridos.</li>
+                <li>Evitar chocar con obstáculos o caer en huecos.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">3. Controles</h2>
+            <table>
+                <thead>
+                    <tr><th>Acción</th><th>Teclado / Ratón / Touch</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Saltar</td><td>Click izquierdo / tecla Espacio / toque</td></tr>
+                    <tr><td>Pausa / Opciones</td><td>Click en el icono de engranaje</td></tr>
+                    <tr><td>Reanudar</td><td>Botón &ldquo;Volver al juego&rdquo;</td></tr>
+                    <tr><td>Cambiar dificultad</td><td>Botón &ldquo;Cambiar Dificultad&rdquo;</td></tr>
+                    <tr><td>Cambiar jugador</td><td>Botón &ldquo;Cambiar Jugador&rdquo;</td></tr>
+                    <tr><td>Salir</td><td>Botón &ldquo;Salir&rdquo;</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2 class="section-title">4. Interfaz de Usuario</h2>
+            <ul>
+                <li><strong>Cronómetro:</strong> metros recorridos (arriba-centro).</li>
+                <li><strong>Récord:</strong> mejor distancia (arriba-centro, junto al cronómetro).</li>
+                <li><strong>Icono de Opciones:</strong> engranaje para menú de pausa (esquina superior izquierda).</li>
+                <li><strong>Icono de Sonido:</strong> silenciar/activar música y efectos (esquina superior derecha).</li>
+                <li><strong>Pantalla de Game Over:</strong> muestra tu distancia y récord, con botón de reiniciar.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">5. Mecánicas Principales</h2>
+            <h3>5.1 Suelo y Huecos</h3>
+            <ul>
+                <li>Fácil: sin huecos; siempre columnas presentes.</li>
+                <li>Intermedio/Difícil: huecos de 1–2 columnas, patrones naranjas o azules.</li>
+            </ul>
+            <h3>5.2 Obstáculos</h3>
+            <ul>
+                <li>Estáticos: se desplazan con el suelo.</li>
+                <li>Móviles: oscilan (horizontal en Intermedio; vertical en Difícil) y avanzan con el suelo.</li>
+            </ul>
+            <h3>5.3 Salto y Doble Salto</h3>
+            <ul>
+                <li>Primer salto (desde suelo) con fuerza plena.</li>
+                <li>Segundo salto (en aire) con fuerza reducida.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">6. Selección de Jugador</h2>
+            <p>Elige entre 5 slots de jugador. Cada slot guarda nombre y récord:</p>
+            <ul>
+                <li>Pulsa &ldquo;Editar&rdquo; para asignar o cambiar nombre.</li>
+                <li>Pulsa &ldquo;Borrar&rdquo; para eliminar al jugador.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">7. Menú de Pausa y Ajustes</h2>
+            <ul>
+                <li><strong>Reanudar:</strong> vuelve al juego pausado.</li>
+                <li><strong>Cambiar Dificultad:</strong> va al menú principal.</li>
+                <li><strong>Cambiar Jugador:</strong> abre selección de jugador.</li>
+                <li><strong>Mute:</strong> silencia/activa sonido.</li>
+                <li><strong>Salir:</strong> cierra la aplicación.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 class="section-title">8. Consejos de Juego</h2>
+            <ul>
+                <li>Observa los patrones de suelo antes de saltar.</li>
+                <li>Usa el doble salto sólo cuando sea imprescindible.</li>
+                <li>Mantén la calma: los patrones son previsibles.</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p style="text-align:center; margin: 40px 0;">© 2025 The King Games. Alicia Herrera, DAM. ¡Buena suerte!</p>
+        </footer>
+    </main>
+</body>
+</html>
